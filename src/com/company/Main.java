@@ -1,9 +1,7 @@
 package com.company;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.*;
 
+import java.io.IOException;
 
 public class Main {
 

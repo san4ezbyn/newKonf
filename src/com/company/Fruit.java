@@ -24,11 +24,7 @@ public class Fruit extends Sweets {
 
     @Override
     public String toString ( ) {
-      /*  return "Fruit{" +
-                " name = '" + super.getName () + "\'" +
-                " weight =" + super.getWeight () +
-                " fresh ='" + fresh + '\'' +
-                '}';*/
+
 
         return ("NAME  " +super.getName () + " " +
                 "WEIGHT " + super.getWeight () + " gr\n");

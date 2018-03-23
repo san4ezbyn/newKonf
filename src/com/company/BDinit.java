@@ -23,7 +23,7 @@ public class BDinit extends Sweets {
 
         @Override
         public String toString ( ) {
-            return "Sweets-file:: Type=" + this.type + " Name=" + super.getName() +  " Weight=" + super.getWeight();
+            return "Sweets-BD:: Type=" + this.type + " Name=" + super.getName() +  " Weight=" + super.getWeight();
         }
 
     }
@@ -33,47 +33,3 @@ public class BDinit extends Sweets {
 
 
 
-
-/*
-COPY
-package com.company;
-
-public class BDinit extends Sweets{
-
-
-        private int    id;
-
-
-        public BDinit ( ) {
-        }
-
-        public BDinit ( String name , double weight , int id ) {
-
-            super ( name , weight );
-
-
-            this.id = id;
-
-        }
-
-             public int getId ( ) {
-            return id;
-        }
-
-        public void setId ( int id ) {
-            this.id = id;
-        }
-
-
-        @Override
-        public String toString ( ) {
-            return "Sweets:: ID=" + this.id + " Name=" + super.getName() +  " Weight=" + super.getWeight();
-        }
-
-
-    }
-
-
-
-
-*/

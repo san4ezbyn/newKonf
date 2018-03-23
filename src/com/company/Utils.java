@@ -1,13 +1,11 @@
 package com.company;
 
-import javax.xml.crypto.Data;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
-
 
 public class Utils  {
 
@@ -111,8 +109,7 @@ public class Utils  {
                     }
                     case 5: {
 
-                       /* Case5 case5 = new Case5 ();
-                        case5.runCase5 ();*/
+
                        ParseUtils runParseUtil = new ParseUtils();
                         runParseUtil.ParseUtils();
 
@@ -121,8 +118,7 @@ public class Utils  {
 
                     case 6: {
 
-                        /*ConnectJDBC con = new ConnectJDBC();
-                        con.runConnectJDBC();*/
+
                         BDbody bdb = new BDbody();
                         bdb.runBDbody();
 
