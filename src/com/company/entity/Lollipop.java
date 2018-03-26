@@ -1,4 +1,4 @@
-package com.company;
+package com.company.entity;
 
 public class Lollipop extends Sweets {
     private String obertka;

@@ -2,6 +2,9 @@ package com.company;
 
         import java.util.ArrayList;
         import java.util.List;
+
+        import com.company.entity.Sweets;
+        import com.company.entity.XMLSweetsInfo;
         import org.xml.sax.Attributes;
         import org.xml.sax.SAXException;
         import org.xml.sax.helpers.DefaultHandler;
@@ -12,7 +15,7 @@ public class MyHandler extends DefaultHandler {
 
     //List to hold sweets object
     //private List <Sweets> podarok;
-    private XMLSweetsInfo        emp     = null;
+    private XMLSweetsInfo emp = null;
 
 
     //getter method for sweets list

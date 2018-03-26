@@ -1,5 +1,5 @@
 
-package com.company;
+package com.company.entity;
 
 public class Choco extends Sweets {
 

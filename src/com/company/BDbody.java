@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.entity.BDinit;
+import com.company.entity.Sweets;
+
 import java.sql.*;
 import java.util.List;
 
@@ -9,7 +12,7 @@ public class BDbody extends Utils {
     //List to hold sweets object
 
 
-   private BDinit        bd      = null;
+   private BDinit bd = null;
 
 
     //getter method for sweets list

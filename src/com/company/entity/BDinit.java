@@ -1,4 +1,6 @@
-package com.company;
+package com.company.entity;
+
+import com.company.entity.Sweets;
 
 public class BDinit extends Sweets {
 

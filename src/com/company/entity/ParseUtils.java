@@ -1,4 +1,6 @@
-package com.company;
+package com.company.entity;
+
+import com.company.Utils;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

@@ -1,6 +1,9 @@
 package com.company;
 
 
+import com.company.entity.Choco;
+import com.company.entity.Lollipop;
+
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 

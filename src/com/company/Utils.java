@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.entity.ParseUtils;
+import com.company.entity.Sweets;
+import org.junit.Test;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -38,7 +42,9 @@ public class Utils  {
 
                 int act = scan.nextInt ();
                 switch (act) {
-                    case 0: {
+
+
+                        case 0: {
                         choiceMENU1 = false;
                         System.out.print ( "\nYou have left MENU-1.\n" );
                         break;
