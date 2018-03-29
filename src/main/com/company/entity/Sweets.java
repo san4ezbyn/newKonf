@@ -2,7 +2,7 @@ package com.company.entity;
 
 public abstract class Sweets {
 
-    private String name;
+    public  String name;
     private double weight;
 
     public Sweets ( ) {

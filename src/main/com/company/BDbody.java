@@ -12,7 +12,7 @@ public class BDbody extends Utils {
     //List to hold sweets object
 
 
-   private BDinit bd = null;
+   public BDinit bd = null;
 
 
     //getter method for sweets list
@@ -20,8 +20,8 @@ public class BDbody extends Utils {
         return podarok;
     }
 
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL      = "jdbc:mysql://localhost/konf?useSSL=false";
+    public /*final*/ String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    public  /*final*/ String DB_URL      = "jdbc:mysql://localhost/konf?useSSL=false";
 
     //  Database credentials
     static final String USER = "root";
@@ -70,5 +70,6 @@ public class BDbody extends Utils {
             e.printStackTrace ();
         }
     }
-}
+
+    }
 

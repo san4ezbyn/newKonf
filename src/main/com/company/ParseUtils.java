@@ -1,6 +1,9 @@
-package com.company.entity;
+package com.company;
 
 import com.company.Utils;
+import com.company.entity.Choco;
+import com.company.entity.Fruit;
+import com.company.entity.Lollipop;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -47,17 +50,22 @@ public class ParseUtils extends Utils {
                     podarok.add ( fruit );
                     break;
                 }
-
+                default: {
+                    break;
+                }
 
             }
+
 
         }
 
     }
 
-
-
 }
+
+
+
+
 
 
 

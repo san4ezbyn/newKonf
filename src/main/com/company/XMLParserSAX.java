@@ -1,6 +1,7 @@
 package com.company;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
@@ -15,19 +16,22 @@ import org.xml.sax.SAXException;
 
 public class XMLParserSAX extends Utils {
 
-    public void runPARSER() {
+    public static void runPARSER ( )throws FileNotFoundException {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             MyHandler handler   = new MyHandler();
             saxParser.parse(new File( "konfetki.xml" ), handler);
+
             //Get sweets list
             List<Sweets> podarok = handler.getEmpList();
-            //(Sweets (podarok.add ( String ( podarok ) )) );
+
             //print sweets information
             System.out.println( podarok);
         } catch (ParserConfigurationException | SAXException | IOException e) {
-            e.printStackTrace();
+           e.printStackTrace();
         }
     }
+
+
 }

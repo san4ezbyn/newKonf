@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <podarok>
     <sweets id="001">
-        <name>LizynXML</name>
+        <name>Lizyn</name>
         <weight>8</weight>
         <type>сосулька</type>
     </sweets>
