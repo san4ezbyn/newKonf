@@ -58,7 +58,7 @@ public class objectSame extends Utils {
 
         }
         ParseUtils runParseUtil = new ParseUtils ();
-        runParseUtil.ParseUtils ();
+        runParseUtil.parseMeth ();
 
         Assert.assertNotSame ( ( "They are not the same:" ) , sweetset , podarok );
 

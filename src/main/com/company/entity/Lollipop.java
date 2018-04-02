@@ -42,6 +42,8 @@ public class Lollipop extends Sweets {
         return ("NAME  " +super.getName () + " " +
                 "WEIGHT " + super.getWeight () + " gr\n");
     }
+
+
 }
 
 

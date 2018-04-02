@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 
 
     @RunWith ( Suite.class )
-    @Suite.SuiteClasses ( {BDbodyTest.class, objectSame.class, parseEquals.class, noFileError.class, assertTrue.class} )
+    @Suite.SuiteClasses ( {PodarokTest.class} )
 
     public class SuiteSet {
     }

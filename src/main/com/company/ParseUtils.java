@@ -19,7 +19,7 @@ public class ParseUtils extends Utils {
     Fruit    fruit    = new Fruit ();
 
 
-    public void ParseUtils ( ) throws IOException {
+    public void parseMeth ( ) throws IOException {
 
         List <String> contents = Files.readAllLines ( Paths.get ( "ListOfSweets.txt" ) , Charset.defaultCharset () );
 

@@ -1,37 +1,34 @@
 package com.company;
 
 
+import org.junit.Assert;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import java.io.IOException;
+
 import java.io.FileNotFoundException;
 
 
-public class noFileError extends XMLParserSAX {
+public class noFileError /*extends XMLParserSAX*/ {
 
-   /* @Rule
-    public ExpectedException expectedException = ExpectedException.none ();*/
+    public static int div ( int x , int y ) {
 
-    @Test //(expected =FileNotFoundException.class )
-
-    public void toDOTest ( ) /*throws FileNotFoundException*/ {
-       /* expectedException.expect ( FileNotFoundException.class );
-        expectedException.expectMessage ( "ФАЙЛ НЕ ЗНОЙДЗЕНЫ" );*/
-
-
-        XMLParserSAX sax = new XMLParserSAX();
-        try {
-            sax.runPARSER();
-        } catch (FileNotFoundException e) {
-            System.out.print ("No file found");
+        if (y == 0) {
+            throw new ArithmeticException ();
         }
-
-
+        return x / y;
     }
 
+    @Test(expected = ArithmeticException.class)
+    public void DivByZero ( ) {
 
 
-
-
-
-
-
+        Assert.assertEquals ( "Division by Zero" , 6 , noFileError.div ( 36 , 0 ) );
+    }
 }
+
+
+
+
+

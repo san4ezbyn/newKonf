@@ -1,5 +1,7 @@
 package com.company.entity;
 
+import java.util.Objects;
+
 public abstract class Sweets {
 
     public  String name;
@@ -42,6 +44,19 @@ public abstract class Sweets {
     }
 
 
+    /*@Override
+    public boolean equals ( Object o ) {
+        if (this == o) return true;
+        if (o == null || getClass () != o.getClass ()) return false;
+        Sweets sweets = (Sweets) o;
+        return Double.compare ( sweets.weight , weight ) == 0 &&
+                Objects.equals ( name , sweets.name );
+    }
 
+    @Override
+    public int hashCode ( ) {
+
+        return Objects.hash ( name , weight );
+    }*/
 }
 

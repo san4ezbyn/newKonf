@@ -12,13 +12,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class parseEquals extends Utils {
+import static com.company.Utils.podarok;
+
+public class parseEquals  {
 
     Lollipop lollipop = new Lollipop ();
     Choco    choco    = new Choco ();
     Fruit    fruit    = new Fruit ();
 
-    List <Sweets> sweettest = new ArrayList <> ();
+    List <Sweets> sweettest = podarok;//new ArrayList <> ();
 
 
     @Test
@@ -61,11 +63,10 @@ public class parseEquals extends Utils {
         }
 
         ParseUtils runParseUtil = new ParseUtils ();
-        runParseUtil.ParseUtils ();
+        runParseUtil.parseMeth ();
 
-
-podarok = sweettest;
-
+System.out.print (podarok+"\n\n");
+        System.out.print (sweettest);
         Assert.assertEquals ( podarok , sweettest );
 
 
