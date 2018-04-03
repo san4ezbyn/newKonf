@@ -44,7 +44,7 @@ public abstract class Sweets {
     }
 
 
-    /*@Override
+    @Override
     public boolean equals ( Object o ) {
         if (this == o) return true;
         if (o == null || getClass () != o.getClass ()) return false;
@@ -53,7 +53,7 @@ public abstract class Sweets {
                 Objects.equals ( name , sweets.name );
     }
 
-    @Override
+  /*  @Override
     public int hashCode ( ) {
 
         return Objects.hash ( name , weight );

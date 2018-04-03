@@ -46,6 +46,8 @@ public class PodarokTest {
 
     @Test
     public void trueTest ( ) {
+        //System.out.print(podarok+"\n\n");
+        //System.out.print(sweetSet+"\n\n");
         Assert.assertTrue ( podarok.containsAll ( sweetSet ) );
     }
 
