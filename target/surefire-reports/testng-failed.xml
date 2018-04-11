@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.company.TestNGblock">
+        <methods>
+          <include name="assEq5"/>
+          <include name="dependsOnGroup1"/>
+          <include name="dependOnMethod1"/>
+          <include name="beforeClass"/>
+          <include name="assEq"/>
+          <include name="errorMethod"/>
+          <include name="methodNG1"/>
+          <include name="assEq3"/>
+          <include name="assEq2"/>
+        </methods>
+      </class> <!-- com.company.TestNGblock -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

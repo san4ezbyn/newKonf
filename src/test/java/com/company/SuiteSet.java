@@ -8,4 +8,6 @@ import org.junit.runners.Suite;
     @Suite.SuiteClasses ( {PodarokTest.class} )
 
     public class SuiteSet {
+        public static class KonfNGtest {
+        }
     }

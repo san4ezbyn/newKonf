@@ -21,10 +21,10 @@ public class PodarokTest {
         runParseUtil.parseMeth ();
     }
 
-    List <Sweets> sweetSet = new ArrayList <> ();
+    static List <Sweets> sweetSet = new ArrayList <> ();
 
     @Before
-    public void fillSweetSet ( ) {
+    public void fillSweetSetMeth ( ) {
 
         Lollipop lollipop = new Lollipop ();
         Choco    choco    = new Choco ();
@@ -72,4 +72,6 @@ public class PodarokTest {
        Assert.assertEquals (podarok.toString().indexOf("Lol4"), sweetSet.toString().indexOf("Lol4"));
 
     }
+
+
 }

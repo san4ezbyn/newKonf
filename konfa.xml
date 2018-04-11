@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="2">
+    <test name="TestNGblock">
+        <!--<groups>
+            <run>
+                <include name="konfeta"/>
+
+            </run>
+        </groups>-->
+        <classes>
+            <class name="com.company.TestNGblock"/>
+        </classes>
+    </test>
+    <test name="SecondTest">
+        <packages>
+            <package name="com.company"/>
+        </packages>
+    </test>
+</suite>
