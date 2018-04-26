@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterized suite]">
+  <parameter name="suite-param-one" value="Suite Param One"/>
+  <parameter name="suite-param-two" value="Suite Param Two"/>
+  <test thread-count="5" name="Simple config test(failed)">
+    <classes>
+      <class name="com.company.SampleTest">
+        <methods>
+          <include name="paramTestTwo"/>
+          <include name="paramTestOne"/>
+        </methods>
+      </class> <!-- com.company.SampleTest -->
+    </classes>
+  </test> <!-- Simple config test(failed) -->
+</suite> <!-- Failed suite [Parameterized suite] -->
